@@ -1,0 +1,300 @@
+/*----------------------------------------------------
+
+    Template Name: 
+    Template URI: 
+    Description: 
+    Author: 
+    Author URI: www.facebook.com/princew.rafid.96
+    Version: 1.0
+------------------------------------------------------
+
+  CSS INDEX
+  ===================	
+1. Theme Default CSS
+----------------------------------------------------*/
+
+
+/*----------------------------------------*/
+
+
+/*  1. Theme Default CSS
+/*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo|Montserrat:300,400,500,500i,600,600i,700');
+
+html,
+body {
+    height: 100%;
+    font-family: 'Exo', Helvetica, verdana;
+}
+a:hover{text-decoration: none;}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.container-fluid .row.no-gutters ,
+.container-fluid .col-md-3,
+.container-fluid .col-md-9 {
+    height: 100%;
+}
+
+.menu {
+    background-color: #232323;
+    height: 100%;
+}
+
+.menu img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+
+
+.menu .row a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-facebook {
+    background: #3b5998
+}
+
+.fa-linkedin {
+    background: #007bb6;
+}
+
+.fa-twitter {
+    background: #00aced;
+}
+
+.google-plus {
+    background: #dd4b39;
+}
+
+.menu i {
+    width: 40px;
+    height: 40px;
+    padding: 34%;
+    transition: .1s;
+}
+
+.menu i:hover {
+    border-radius: 10px;
+}
+
+.menu .row .col-md-offset-3 {
+    margin-left: 22%;
+}
+
+.content {
+    height: 100%;
+}
+
+
+
+ul.real_menu li {display: block;height: 100%;}
+
+ul.real_menu 
+ i.fa {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    border: 3px solid #2F2F2F;
+    border-bottom: 0;
+    float: left;
+}
+
+ul.real_menu 
+i.fa:hover {border-radius: 0;}
+
+ul.real_menu 
+ li a {
+    color: #fff;
+    border: 3px  solid #2F2F2F;
+    padding: 12px  0 11px 25px;
+    display: block;
+    margin-left: 49px;
+    border-bottom: 0;
+    border-left: 0;
+     transition: .3s;
+}
+
+ul.real_menu 
+li a:hover{border-left: 3px solid #fff;border-right: 3px solid #fff;opacity: .7;}
+
+
+ul.real_menu {
+    margin: 0;
+    border-bottom: 3px solid #2F2F2F;
+}
+
+
+.main-content-1{
+    width: 100%;
+    height: 100%;
+    /*background-color: #4BCAFF;*/
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.main-content-2{
+    width: 100%;
+    height: 100%;
+    /*background-color: #4BCAFF;*/
+    color: #fff;
+    position: relative;
+    z-index: 20;
+}
+.blur-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(asset/img/main-content-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.table {height: 100%;display: table;}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+h1.title , 
+span.typed-cursor{
+    font-size: 60px;
+    line-height: 35px;
+    display: inline-block;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    padding: 22px 0;
+}
+
+span.typed-cursor{font-weight: 300;}
+span#typed {
+    line-height: 50px;
+}
+
+.typed-cursor{
+     -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: blink;
+    animation-duration: 4s;
+    -webkit-animation:blink 1s infinite;
+    -moz-animation:blink 1s infinite;
+    -ms-animation:blink 1s infinite;
+    -o-animation:blink 1s infinite;
+    animation:blink 1s infinite;
+}
+
+
+.blur-bg:after {
+    content: '';
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+@keyframes blink {
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+h2{transition: .3s;opacity: 0; margin-top: 25px;letter-spacing: 5px;}
+.opacity{opacity: 1;margin: 0;}
+
+.main-content-2 span {
+    display: block;
+    font-size: 50px;
+}
+
+.main-content-2 h3 {
+    display: block;
+}
+
+.main-content-2 a {
+    color: #DEDEDE;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.main-content-2 a:hover {opacity: .7;}
+
+.main-content-2 .row {
+    text-align: center;
+}
+
+.main-content-2 i.fa {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 50%;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+.bh {height: auto!important;}
+.col-md-9.auto-height ,
+.main-content-3 {height: auto;!important;}
+
+
+.main-content-3 img{width: 100%;}
+
+.main-content-3 .col-sm-6 {
+    padding: 25px 40px;
+}
+
+.opacity0{opacity: 0!important;}
+.opacity1{opacity: 1!important;}
+
+#contact,
+#recent-project{display: none;}
+
+
+
+.container-fluid {
+    position: relative;
+    z-index: 1;
+}
+
+.absolute {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+div#recent-project {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
