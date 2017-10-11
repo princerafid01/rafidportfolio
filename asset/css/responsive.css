@@ -10,14 +10,14 @@
             padding: 50px 0px;
         }
         .main-content-1 , .main-content-2 {
-            background-image: url('asset/img/main-content-bg.jpg');
+            background: url('asset/img/main-content-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
             position:relative;
         }
         .main-content-2 i.fa {height:50px!important;}
-        h1.title{line-height:74px;
+        h1.title{line-height:74px;}
          
     }
     
