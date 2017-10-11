@@ -18,17 +18,7 @@
             position:relative;
         }
         
-         .main-content-1:after , .main-content-2:after {
-        
-        content: '';
-    background: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-        }
+         
     }
     
     @media only screen and (min-width: 480px) and (max-width: 767px) {}
