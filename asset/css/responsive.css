@@ -6,12 +6,11 @@
     
     @media only screen and (max-width: 767px) {
     	.main-content-1 , .main-content-2, .main-content-3 {
-            background-color: #4BCAFF; 
             height: auto;
             padding: 50px 0px;
         }
         .main-content-1 , .main-content-2 {
-            background-image: url(asset/img/main-content-bg.jpg);
+            background-image: url('asset/img/main-content-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
