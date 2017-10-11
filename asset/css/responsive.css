@@ -10,7 +10,7 @@
             padding: 50px 0px;
         }
         .main-content-1 , .main-content-2 {
-            background: url('../asset/img/main-content-bg.jpg');
+            background: url('../img/main-content-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
