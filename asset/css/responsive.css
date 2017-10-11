@@ -18,8 +18,10 @@
         }
         .main-content-2 i.fa {height:50px!important;}
         h1.title{line-height:74px;}
-        *{height:auto;}
+        
          
     }
     
     @media only screen and (min-width: 480px) and (max-width: 767px) {}
+   @media only screen  and (max-width: 600px) {*{height:auto;}}
+
