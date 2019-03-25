@@ -3,6 +3,9 @@ var typed = new Typed('#typed', {
     typeSpeed: 50,
     loop: false
 });
+$('a').click(function(e) {
+    e.preventDefault();
+});
 
 setTimeout(function () {
     $('h2').addClass('opacity');
